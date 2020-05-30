@@ -1,0 +1,70 @@
+html {
+  background-color: rgb(233, 217, 247);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 0px 4px 8px grey;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0px auto;
+  top: 20px;
+  position: relative;
+  padding: 10px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(233, 217, 247);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+span {
+  margin: 20px;
+  font-size: 20px;
+}
+
+input {
+  border-radius: 50px 0px 0px 50px;
+  border: 0px;
+  padding: 2px;
+  margin: 0px;
+}
+.btnDelete {
+  border-radius: 20px;
+  padding: 5px 8px;
+  border: 0px;
+  font-size: 10px;
+}
+
+.btnAdd {
+  border: 0px;
+  border-radius: 0px 50px 50px 0px;
+  position: relative;
+  margin: 0px;
+}
+
+button {
+  background-color: rgb(233, 217, 247);
+}
+button:hover {
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
